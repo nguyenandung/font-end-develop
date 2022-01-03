@@ -1,0 +1,28 @@
+.cottrai {
+    font-size: 20px;
+    width: 500px;
+   
+}
+.cottrai img {
+    width: 100%;
+}
+a.text_dc {
+    text-decoration: none;
+    color:gray;
+}
+a.text_dc h3 {
+    margin: 0;
+    padding: 0;
+}
+a.text_dc:hover {
+    color: aquamarine;
+}
+a.nguon , a.lq {
+    text-decoration: none;
+    padding-right: 10px;
+   
+}
+span {
+  
+    padding-right: 10px;
+}

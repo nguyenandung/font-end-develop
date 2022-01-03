@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.bo {
+    width: 400px;
+    height:300px;
+   
+    position: relative;
+}
+.bo .anh {
+    width: 100%;
+    height: 100%;
+}
+.bo:hover .anh {
+    transition:1s;
+    transform: rotateY(360deg);
+    transform-origin: 0 0;
+}
+
+.bo .xam {
+    width: 100%;
+    height: 300px;
+    top: 0;
+    left: 0;
+    position:absolute;
+    background-color: rgb(243, 231, 231);
+    transition: 1s;
+    border: 10px black solid;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.bo:hover .xam {
+    opacity: 0.7;
+    border: 20px black solid;
+}
+
+.bo .chu {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    transition:1s;
+    opacity: 0;
+
+}
+.bo:hover .chu {
+    opacity: 1;
+}
+.bo .chu h3 {
+    font-size:30px;
+    color:rgb(88, 47, 193);
+    font-style: inherit;
+}
+
+.bo .chu p {
+    font-size:13px;
+    color: aqua;
+}
